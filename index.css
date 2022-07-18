@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap");
+
+body{
+    font-family: "Jost", sans-serif;
+    margin:0;
+    padding:0;
+    background:#e4e6f5;
+}
+.main{
+    margin-left:calc(50vw - 402px/2);
+    margin-top:calc(50vh - 425px/2);
+    border:1px solid #93abfc;
+    display:flex;
+    flex-direction: column;
+    width:fit-content;
+    justify-content: center;
+    width:400px;
+}
+.tabDugmad{
+    
+    flex-shrink: 0;
+    background:#4d76fd;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 50px;
+}
+.tabDugme{
+    display:block;
+    padding:10px;
+    background:#e4e6f5;
+    width:50%;
+    border:none;
+}
+.dugme-active{
+    background:#fff;
+}
+.tabDugme:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #4d76fd;
+}
+.submit-forgot-div{
+    display:flex;
+    justify-content: space-between;
+}
+.forma{
+    
+    background:#fff;
+    display:none;
+    padding:30px;
+}
+.forma-active{
+    display:flex;
+    flex-direction: column;
+    justify-items: flex-start;
+}
+.text-input{
+    width:75%;
+    height: 20px;
+    margin-bottom: 10px;
+    border-color:#4d76fd;
+}
+.prijavi-se{
+    background:#4d76fd;
+    padding:5px;
+    border:0;
+    color:white;
+}
+a{
+    color:#4d76fd;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+.naslov{
+    padding:0;
+    margin-top:10px;
+    font-size: 30px;
+}
+.forme{ background:white;}
